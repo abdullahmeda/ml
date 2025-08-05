@@ -14,3 +14,11 @@ install:
 # Remove the virtual environment directory
 clean:
 	rm -rf .venv
+
+
+r:
+	sudo apt update
+	sudo apt install r-base
+	sudo R
+	# install.packages('IRkernel')
+	# IRkernel::installspec()
