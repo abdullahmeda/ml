@@ -1,4 +1,4 @@
-.PHONY: init clean
+.PHONY: init install clean r
 
 # Create a local virtual environment in .venv and upgrade pip
 env:
